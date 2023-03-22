@@ -238,5 +238,13 @@
       "type": "color",
       "description": "Light"
     }
+  },
+  "hidden": {
+    "value": "{opacity-0}",
+    "type": "opacity"
+  },
+  "disabled": {
+    "value": "{opacity-40}",
+    "type": "opacity"
   }
 }

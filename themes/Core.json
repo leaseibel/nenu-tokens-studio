@@ -292,5 +292,21 @@
       "value": "#072217",
       "type": "color"
     }
+  },
+  "opacity-0": {
+    "value": "0",
+    "type": "opacity"
+  },
+  "opacity-20": {
+    "value": "0.2",
+    "type": "opacity"
+  },
+  "opacity-40": {
+    "value": "0.4",
+    "type": "opacity"
+  },
+  "opacity-60": {
+    "value": "0.6",
+    "type": "opacity"
   }
 }
