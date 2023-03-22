@@ -1,0 +1,118 @@
+{
+  "button": {
+    "accent": {
+      "background-color": {
+        "default": {
+          "value": "{accent.default}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "accent-button": {
+    "default": {
+      "border": {
+        "value": "{accent.default}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{accent.x-dark}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{accent.x-dark}",
+        "type": "color"
+      }
+    }
+  },
+  "input": {
+    "default": {
+      "background": {
+        "value": "{neutral.20}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{neutral.20}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{neutral.60}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{neutral.100}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{neutral.60}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "background": {
+        "value": "{neutral.20}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{informative.default}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{neutral.60}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{neutral.100}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{neutral.60}",
+        "type": "color"
+      }
+    },
+    "hover": {
+      "background": {
+        "value": "{neutral.20}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{neutral.40}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{neutral.60}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{neutral.100}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{neutral.60}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "background": {
+        "value": "{neutral.20}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{error.default}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{neutral.60}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{neutral.100}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{neutral.60}",
+        "type": "color"
+      }
+    }
+  }
+}

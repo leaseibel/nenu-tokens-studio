@@ -1,0 +1,12 @@
+[
+  {
+    "id": "caf5ff21f3fa7291917ecf0e28c97d4a41206dc2",
+    "name": "Mods",
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "Specific": "enabled",
+      "Semantic": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
