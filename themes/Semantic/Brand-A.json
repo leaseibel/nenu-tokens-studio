@@ -1,289 +1,242 @@
 {
-  "primary": {
-    "light": {
-      "value": "{hyacinthus.70}",
+  "primary-surface": {
+    "elevation-overlay": {
+      "value": "{dahlia.10}",
       "type": "color",
       "description": "Light"
     },
-    "default": {
-      "value": "{hyacinthus.80}",
-      "type": "color",
-      "description": "Default"
-    },
-    "dark": {
-      "value": "{hyacinthus.90}",
-      "type": "color",
-      "description": "Dark"
-    }
-  },
-  "secondary": {
-    "light": {
-      "value": "{dahlia.40}",
-      "type": "color",
-      "description": "Light"
-    },
-    "default": {
+    "bg": {
       "value": "{dahlia.50}",
       "type": "color",
       "description": "Default"
     },
-    "dark": {
-      "value": "{dahlia.60}",
-      "type": "color",
-      "description": "Dark"
-    },
-    "x-dark": {
+    "fg": {
       "value": "{dahlia.100}",
       "type": "color",
       "description": "Dark"
+    },
+    "fg-clickable": {
+      "value": "{dahlia.100}",
+      "type": "color",
+      "description": "Dark"
+    },
+    "elevation-sunken": {
+      "value": "{dahlia.60}",
+      "type": "color"
     }
   },
-  "accent": {
-    "light": {
+  "accent-surface": {
+    "elevation-overlay": {
+      "value": "{sunflower.10}",
+      "type": "color",
+      "description": "Light"
+    },
+    "elevation-raised": {
       "value": "{sunflower.40}",
       "type": "color",
       "description": "Light"
     },
-    "default": {
+    "bg-bold": {
       "value": "{sunflower.50}",
       "type": "color",
       "description": "Default"
     },
-    "dark": {
-      "value": "{sunflower.60}",
+    "border": {
+      "value": "{sunflower.50}",
+      "type": "color",
+      "description": "Default"
+    },
+    "bg-subtle": {
+      "value": "{sunflower.30}",
+      "type": "color",
+      "description": "Default"
+    },
+    "bg-minimal": {
+      "value": "{sunflower.20}",
+      "type": "color",
+      "description": "Default"
+    },
+    "fg": {
+      "value": "{sunflower.100}",
       "type": "color",
       "description": "Dark"
     },
-    "x-dark": {
+    "fg-clickable": {
       "value": "{sunflower.100}",
       "type": "color",
       "description": "Dark"
     }
   },
-  "neutral": {
-    "10": {
+  "bright-surface": {
+    "bg": {
       "value": "{hyacinthus.10}",
       "type": "color",
       "description": "White"
     },
-    "20": {
-      "value": "{hyacinthus.20}",
-      "type": "color"
-    },
-    "30": {
-      "value": "{hyacinthus.30}",
-      "type": "color"
-    },
-    "40": {
-      "value": "{hyacinthus.40}",
-      "type": "color"
-    },
-    "60": {
-      "value": "{hyacinthus.50}",
-      "type": "color"
-    },
-    "90": {
-      "value": "{hyacinthus.90}",
-      "type": "color"
-    },
-    "100": {
+    "fg-bold": {
       "value": "{hyacinthus.100}",
       "type": "color",
       "description": "Black"
+    },
+    "elevation-sunken": {
+      "value": "{hyacinthus.20}",
+      "type": "color"
+    },
+    "fg-subtle": {
+      "value": "{hyacinthus.50}",
+      "type": "color"
+    },
+    "fg-clickable": {
+      "value": "{hyacinthus.70}",
+      "type": "color"
+    },
+    "border": {
+      "value": "{hyacinthus.40}",
+      "type": "color"
     }
   },
-  "error": {
-    "10": {
-      "value": "{tulip.10}",
+  "gray-surface": {
+    "bg": {
+      "value": "{hyacinthus.20}",
       "type": "color",
-      "description": "X-Light"
+      "description": "White"
     },
-    "light": {
-      "value": "{tulip.30}",
+    "fg-bold": {
+      "value": "{hyacinthus.100}",
       "type": "color",
-      "description": "Light"
+      "description": "Black"
     },
-    "default": {
-      "value": "{tulip.70}",
-      "type": "color",
-      "description": "Default"
+    "elevation-sunken": {
+      "value": "{hyacinthus.90}",
+      "type": "color"
     },
-    "dark": {
-      "value": "{tulip.80}",
-      "type": "color",
-      "description": "Dark"
+    "fg-subtle": {
+      "value": "{hyacinthus.50}",
+      "type": "color"
     },
-    "x-dark": {
-      "value": "{tulip.100}",
-      "type": "color",
-      "description": "X-Dark"
+    "fg-clickable": {
+      "value": "{hyacinthus.70}",
+      "type": "color"
+    },
+    "elevation-overlay": {
+      "value": "{hyacinthus.10}",
+      "type": "color"
     }
   },
-  "warning": {
-    "10": {
-      "value": "{begonia.10}",
+  "dark-surface": {
+    "bg": {
+      "value": "linear-gradient(180deg, {hyacinthus.80} 0%, {hyacinthus.90} 100%)",
       "type": "color",
-      "description": "X-Light"
+      "description": "White"
     },
-    "30": {
-      "value": "{begonia.30}",
+    "fg-bold": {
+      "value": "{hyacinthus.10}",
       "type": "color",
-      "description": "Light"
+      "description": "Black"
     },
-    "default": {
-      "value": "{begonia.70}",
-      "type": "color",
-      "description": "Default"
+    "elevation-sunken": {
+      "value": "{hyacinthus.90}",
+      "type": "color"
     },
-    "dark": {
-      "value": "{begonia.80}",
-      "type": "color",
-      "description": "Dark"
+    "fg-subtle": {
+      "value": "{hyacinthus.50}",
+      "type": "color"
     },
-    "x-dark": {
-      "value": "{begonia.100}",
-      "type": "color",
-      "description": "X-Dark"
+    "fg-primary": {
+      "value": "{dahlia.50}",
+      "type": "color"
+    },
+    "fg-accent": {
+      "value": "{sunflower.50}",
+      "type": "color"
     }
   },
-  "informative": {
-    "10": {
+  "informative-surface": {
+    "bg": {
       "value": "{lobelia.10}",
       "type": "color",
       "description": "X-Light"
     },
-    "30": {
-      "value": "{lobelia.30}",
-      "type": "color",
-      "description": "Light"
-    },
-    "default": {
+    "fg-icon": {
       "value": "{lobelia.70}",
       "type": "color",
       "description": "Default"
     },
-    "dark": {
-      "value": "{lobelia.80}",
-      "type": "color",
-      "description": "Dark"
-    },
-    "x-dark": {
+    "fg-text": {
       "value": "{lobelia.100}",
       "type": "color",
       "description": "X-Dark"
+    },
+    "border": {
+      "value": "{lobelia.40}",
+      "type": "color",
+      "description": "Light"
     }
   },
-  "success": {
-    "10": {
+  "error-surface": {
+    "bg": {
+      "value": "{tulip.10}",
+      "type": "color",
+      "description": "X-Light"
+    },
+    "fg-icon": {
+      "value": "{tulip.70}",
+      "type": "color",
+      "description": "Default"
+    },
+    "fg-text": {
+      "value": "{tulip.100}",
+      "type": "color",
+      "description": "X-Dark"
+    },
+    "border": {
+      "value": "{tulip.40}",
+      "type": "color",
+      "description": "Light"
+    }
+  },
+  "success-surface": {
+    "bg": {
       "value": "{angelica.10}",
       "type": "color",
       "description": "X-Light"
     },
-    "30": {
-      "value": "{angelica.30}",
-      "type": "color",
-      "description": "Light"
-    },
-    "default": {
+    "fg-icon": {
       "value": "{angelica.70}",
       "type": "color",
       "description": "Default"
     },
-    "dark": {
-      "value": "{angelica.80}",
-      "type": "color",
-      "description": "Dark"
-    },
-    "x-dark": {
+    "fg-text": {
       "value": "{angelica.100}",
       "type": "color",
       "description": "X-Dark"
+    },
+    "border": {
+      "value": "{angelica.40}",
+      "type": "color",
+      "description": "Light"
     }
   },
-  "illustration": {
-    "angelica-20": {
-      "value": "{angelica.20}",
-      "type": "color"
+  "warning-surface": {
+    "bg": {
+      "value": "{begonia.10}",
+      "type": "color",
+      "description": "X-Light"
     },
-    "lobelia-20": {
-      "value": "{lobelia.20}",
-      "type": "color"
+    "fg-icon": {
+      "value": "{begonia.70}",
+      "type": "color",
+      "description": "Default"
     },
-    "hyacinthus-10": {
-      "value": "{hyacinthus.10}",
-      "type": "color"
+    "fg-text": {
+      "value": "{begonia.100}",
+      "type": "color",
+      "description": "X-Dark"
     },
-    "dahlia-20": {
-      "value": "{dahlia.20}",
-      "type": "color"
-    },
-    "tulip-20": {
-      "value": "{tulip.20}",
-      "type": "color"
-    },
-    "begonia-20": {
-      "value": "{begonia.20}",
-      "type": "color"
-    },
-    "sunflower-20": {
-      "value": "{sunflower.20}",
-      "type": "color"
-    },
-    "angelica-40": {
-      "value": "{angelica.40}",
-      "type": "color"
-    },
-    "lobelia-40": {
-      "value": "{lobelia.40}",
-      "type": "color"
-    },
-    "hyacinthus-50": {
-      "value": "{hyacinthus.50}",
-      "type": "color"
-    },
-    "dahlia-40": {
-      "value": "{dahlia.40}",
-      "type": "color"
-    },
-    "tulip-40": {
-      "value": "{tulip.40}",
-      "type": "color"
-    },
-    "begonia-40": {
+    "border": {
       "value": "{begonia.40}",
-      "type": "color"
-    },
-    "sunflower-40": {
-      "value": "{sunflower.40}",
-      "type": "color"
-    },
-    "angelica-60": {
-      "value": "{angelica.60}",
-      "type": "color"
-    },
-    "lobelia-60": {
-      "value": "{lobelia.60}",
-      "type": "color"
-    },
-    "hyacinthus-70": {
-      "value": "{hyacinthus.70}",
-      "type": "color"
-    },
-    "dahlia-70": {
-      "value": "{dahlia.70}",
-      "type": "color"
-    },
-    "tulip-60": {
-      "value": "{tulip.60}",
-      "type": "color"
-    },
-    "begonia-60": {
-      "value": "{begonia.60}",
-      "type": "color"
-    },
-    "sunflower-60": {
-      "value": "{sunflower.60}",
-      "type": "color"
+      "type": "color",
+      "description": "Light"
     }
   }
 }
