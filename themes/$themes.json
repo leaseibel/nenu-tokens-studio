@@ -90,7 +90,6 @@
       "informative.surface-fg-icon": "S:fb63a4a2d2b8bc72990fdf90f1fb5ee19d3435f8,",
       "accent-button.bg-hover": "S:ef5033908e41517e047e228b50ff14430cd65eca,",
       "accent-button.bg-pressed": "S:6433045dd80a2618b2efc54e8c531176ab291922,",
-      "accent-button.bg-default": "S:8955b06725fa4edffa44d4983c8908b9aa0c024c,",
       "accent-button.border-focus": "S:ab4d4cda892a6ba910ffefd432866d3c5ee6fd57,",
       "accent-button.fg": "S:74067d6cce71eac98682c2d47591ab494d68f839,",
       "accent-button.fg.hover": "S:c634d2bdfc47da4b3b921c346b2b7e265331b488,",
@@ -210,7 +209,8 @@
       "angelica.70": "S:8c098d7d65ded88d70548b8e0c84c75a892caff3,",
       "angelica.80": "S:3e12764c16c95c5514b69b3c2a80c21d9f437842,",
       "angelica.90": "S:f915e71696b6f137188d69633dc77208126237b1,",
-      "angelica.100": "S:743e8333269e4395204530ac23aa00cd954f3791,"
+      "angelica.100": "S:743e8333269e4395204530ac23aa00cd954f3791,",
+      "accent-button.bg-default": "S:8955b06725fa4edffa44d4983c8908b9aa0c024c,"
     }
   }
 ]

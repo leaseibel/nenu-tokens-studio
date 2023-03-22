@@ -77,21 +77,21 @@
   },
   "disabled": {
     "value": {
-      "fill": "{accent-button.bg-default}",
+      "fill": "{accent-surface.bg-bold}",
       "opacity": "{opacity-40}"
     },
     "type": "composition"
   },
   "focus": {
     "value": {
-      "fill": "{accent-button.bg-default}",
+      "fill": "{accent-surface.bg-bold}",
       "borderColor": "{accent-button.border-focus}"
     },
     "type": "composition"
   },
   "default": {
     "value": {
-      "fill": "{accent-button.bg-default}"
+      "fill": "{accent-surface.bg-bold}"
     },
     "type": "composition"
   },
