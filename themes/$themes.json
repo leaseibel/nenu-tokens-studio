@@ -4,8 +4,8 @@
     "name": "Mods",
     "selectedTokenSets": {
       "Core": "enabled",
-      "Specific": "enabled",
-      "Semantic": "enabled"
+      "Semantic/Brand-A": "enabled",
+      "Components/Button": "enabled"
     },
     "$figmaStyleReferences": {}
   }
