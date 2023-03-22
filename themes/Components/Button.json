@@ -3,7 +3,7 @@
     "accent": {
       "background-color": {
         "default": {
-          "value": "{accent.default}",
+          "value": "#FFD465",
           "type": "color"
         }
       }
