@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Semantic/Brand-A",
+    "Semantic/MultiDevice",
     "Components/Button"
   ]
 }
