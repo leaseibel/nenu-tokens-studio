@@ -1,38 +1,36 @@
 {
   "accent-button": {
-    "bg": {
-      "hover": {
-        "value": "{accent-surface.bg-bold}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "mix",
-              "value": "0.1",
-              "space": "lch",
-              "color": "{accent-surface.fg}"
-            }
+    "bg-hover": {
+      "value": "{accent-surface.bg-bold}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.05",
+            "space": "lch",
+            "color": "{accent-surface.fg}"
           }
         }
-      },
-      "pressed": {
-        "value": "{accent-surface.bg-bold}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "mix",
-              "value": "0.1",
-              "space": "lch",
-              "color": "{accent-surface.fg}"
-            }
-          }
-        }
-      },
-      "default": {
-        "value": "{accent-surface.bg-bold}",
-        "type": "color"
       }
+    },
+    "bg-pressed": {
+      "value": "{accent-surface.bg-bold}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.1",
+            "space": "lch",
+            "color": "{accent-surface.fg}"
+          }
+        }
+      }
+    },
+    "bg-default": {
+      "value": "{accent-surface.bg-bold}",
+      "type": "color"
     },
     "border-focus": {
       "value": "{accent-surface.fg}",
@@ -79,33 +77,33 @@
   },
   "disabled": {
     "value": {
-      "fill": "{accent-button.bg.default}",
+      "fill": "{accent-button.bg-default}",
       "opacity": "{opacity-40}"
     },
     "type": "composition"
   },
   "focus": {
     "value": {
-      "fill": "{accent-button.bg.default}",
+      "fill": "{accent-button.bg-default}",
       "borderColor": "{accent-button.border-focus}"
     },
     "type": "composition"
   },
   "default": {
     "value": {
-      "fill": "{accent-button.bg.default}"
+      "fill": "{accent-button.bg-default}"
     },
     "type": "composition"
   },
   "hover": {
     "value": {
-      "fill": "{accent-button.bg.hover}"
+      "fill": "{accent-button.bg-hover}"
     },
     "type": "composition"
   },
   "pressed": {
     "value": {
-      "fill": "{accent-button.bg.pressed}"
+      "fill": "{accent-button.bg-pressed}"
     },
     "type": "composition"
   }
