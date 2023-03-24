@@ -51,11 +51,6 @@
       "type": "color",
       "description": "Default"
     },
-    "bg-minimal": {
-      "value": "{sunflower.20}",
-      "type": "color",
-      "description": "Default"
-    },
     "fg": {
       "value": "{sunflower.100}",
       "type": "color",
