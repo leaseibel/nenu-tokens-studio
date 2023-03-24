@@ -108,19 +108,16 @@
       "bright-surface.bg": "S:83deadb9950c9dfae6f737793c9fa67c365300df,",
       "bright-surface.fg-bold": "S:4b10c580e716999b2806bb02c3d0a4dea6b7372f,",
       "bright-surface.elevation-sunken": "S:b2801082e8c7c8ed46b0a263bcceb18f139b4b6c,",
-      "bright-surface.fg-subtle": "S:565212582e5d3692d461b5b8d37d62a9ddcaf220,",
       "bright-surface.fg-clickable": "S:c37298fc0aa3cbc1c105216a0926daac457aef6e,",
       "bright-surface.border": "S:f8416464dd0d4f5ae424c5b4aad1b917997a56d3,",
       "gray-surface.bg": "S:2d7c754412449f90888d376a5cd3897288df61ce,",
       "gray-surface.fg-bold": "S:f21a43cd7fa4628a6c49b08ccc8e5dc915c4fa14,",
       "gray-surface.elevation-sunken": "S:fdd8d58e49f7726080d8127707525dbde6c5a38a,",
-      "gray-surface.fg-subtle": "S:e7978bf678adfba683e2be5306bf216e3de3313a,",
       "gray-surface.fg-clickable": "S:3a903a333f65a8496d875c90fe8e1d599bcbf6ba,",
       "gray-surface.elevation-overlay": "S:d214054353350c19f8c1e800f0f147549a47f0cb,",
       "dark-surface.bg": "S:51e907f8a800437bcbb1d61161c0c78c8c799b84,",
       "dark-surface.fg-bold": "S:f115e904f2178cb60d80cc03a3d6fcf598ec254e,",
       "dark-surface.elevation-sunken": "S:7354a100fbe34b1b10de7ea504d860ab937c66bd,",
-      "dark-surface.fg-subtle": "S:30ba516768b356f5431dc94094ebdb70b7ef6a61,",
       "dark-surface.fg-primary": "S:0947048f069b041d2957912cef5156f87cdde5fd,",
       "dark-surface.fg-accent": "S:268a7e437afc900cac8a05cc591265bf87c64a08,",
       "informative-surface.bg": "S:487a0111abf4c1a3edc8423310e0ed09f538c1e3,",
@@ -131,7 +128,6 @@
       "error-surface.fg-icon": "S:4e2679450f47440473c5ac112b2574574378b9d6,",
       "error-surface.fg-text": "S:a05ab616c248a948fe5e59d78d1a4d61703eb007,",
       "error-surface.border": "S:4ffc6fa32e4cad1a0ef41befe754225ec7abeffb,",
-      "success-surface.bg": "S:5890583b2ecb19d1a14874c9b9181dabae2d07da,",
       "success-surface.fg-icon": "S:8d9b217441dddeed6963e924ff476c767e76084a,",
       "success-surface.fg-text": "S:69ef748d14ce8832ded3634fe374bb6e91ff19a0,",
       "success-surface.border": "S:31b14ca9ea3db002482330a70ca85feb50a33831,",
@@ -209,7 +205,11 @@
       "angelica.80": "S:3e12764c16c95c5514b69b3c2a80c21d9f437842,",
       "angelica.90": "S:f915e71696b6f137188d69633dc77208126237b1,",
       "angelica.100": "S:743e8333269e4395204530ac23aa00cd954f3791,",
-      "accent-button.bg-default": "S:8955b06725fa4edffa44d4983c8908b9aa0c024c,"
+      "accent-button.bg-default": "S:8955b06725fa4edffa44d4983c8908b9aa0c024c,",
+      "dark-surface.fg-minimal": "S:30ba516768b356f5431dc94094ebdb70b7ef6a61,",
+      "bright-surface.fg-minimal": "S:565212582e5d3692d461b5b8d37d62a9ddcaf220,",
+      "gray-surface.fg-minimal": "S:e7978bf678adfba683e2be5306bf216e3de3313a,",
+      "success-surface.bg-minimal": "S:5890583b2ecb19d1a14874c9b9181dabae2d07da,"
     }
   }
 ]

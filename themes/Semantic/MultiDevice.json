@@ -77,7 +77,7 @@
       "value": "{hyacinthus.20}",
       "type": "color"
     },
-    "fg-subtle": {
+    "fg-minimal": {
       "value": "{hyacinthus.50}",
       "type": "color"
     },
@@ -105,7 +105,7 @@
       "value": "{hyacinthus.90}",
       "type": "color"
     },
-    "fg-subtle": {
+    "fg-minimal": {
       "value": "{hyacinthus.50}",
       "type": "color"
     },
@@ -133,8 +133,8 @@
       "value": "{hyacinthus.90}",
       "type": "color"
     },
-    "fg-subtle": {
-      "value": "{hyacinthus.50}",
+    "fg-minimal": {
+      "value": "{hyacinthus.60}",
       "type": "color"
     },
     "fg-primary": {
@@ -143,6 +143,10 @@
     },
     "fg-accent": {
       "value": "{sunflower.50}",
+      "type": "color"
+    },
+    "elevation-raised": {
+      "value": "{hyacinthus.70}",
       "type": "color"
     }
   },
@@ -191,7 +195,7 @@
     }
   },
   "success-surface": {
-    "bg": {
+    "bg-minimal": {
       "value": "{angelica.10}",
       "type": "color",
       "description": "X-Light"
@@ -207,6 +211,11 @@
       "description": "X-Dark"
     },
     "border": {
+      "value": "{angelica.40}",
+      "type": "color",
+      "description": "Light"
+    },
+    "bg-subtle": {
       "value": "{angelica.40}",
       "type": "color",
       "description": "Light"
