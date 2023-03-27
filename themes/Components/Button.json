@@ -49,16 +49,6 @@
     "fg": {
       "value": "{accent-surface.fg}",
       "type": "color",
-      "$extensions": {
-        "studio.tokens": {
-          "modify": {
-            "type": "mix",
-            "value": "0.1",
-            "space": "lch",
-            "color": "{accent-surface.fg}"
-          }
-        }
-      },
       "hover": {
         "value": "{accent-surface.bg-bold}",
         "type": "color",
@@ -73,38 +63,136 @@
           }
         }
       }
+    },
+    "disabled": {
+      "value": {
+        "fill": "{accent-button.bg-default}",
+        "opacity": "{opacity-40}"
+      },
+      "type": "composition"
+    },
+    "focus": {
+      "value": {
+        "fill": "{accent-button.bg-default}",
+        "borderColor": "{accent-button.border-focus}"
+      },
+      "type": "composition"
+    },
+    "default": {
+      "value": {
+        "fill": "{accent-button.bg-default}"
+      },
+      "type": "composition"
+    },
+    "hover": {
+      "value": {
+        "fill": "{accent-button.bg-default}"
+      },
+      "type": "composition"
+    },
+    "pressed": {
+      "value": {
+        "fill": "{accent-button.bg-default}"
+      },
+      "type": "composition"
     }
   },
-  "disabled": {
-    "value": {
-      "fill": "{accent-surface.bg-bold}",
-      "opacity": "{opacity-40}"
+  "neutral-button": {
+    "bg-hover": {
+      "value": "{gray-surface.bg}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.05",
+            "space": "lch",
+            "color": "{gray-surface.fg-bold}"
+          }
+        }
+      }
     },
-    "type": "composition"
-  },
-  "focus": {
-    "value": {
-      "fill": "{accent-surface.bg-bold}",
-      "borderColor": "{accent-button.border-focus}"
+    "bg-pressed": {
+      "value": "{gray-surface.bg}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.1",
+            "space": "lch",
+            "color": "{gray-surface.fg-bold}"
+          }
+        }
+      }
     },
-    "type": "composition"
-  },
-  "default": {
-    "value": {
-      "fill": "{accent-surface.bg-bold}"
+    "bg-default": {
+      "value": "{gray-surface.bg}",
+      "type": "color"
     },
-    "type": "composition"
-  },
-  "hover": {
-    "value": {
-      "fill": "{accent-button.bg-hover}"
+    "border-focus": {
+      "value": "{gray-surface.bg}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.6",
+            "space": "lch",
+            "color": "{gray-surface.fg-clickable}"
+          }
+        }
+      }
     },
-    "type": "composition"
-  },
-  "pressed": {
-    "value": {
-      "fill": "{accent-button.bg-pressed}"
+    "fg": {
+      "value": "{gray-surface.fg-clickable}",
+      "type": "color",
+      "hover": {
+        "value": "{accent-surface.bg-bold}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0.1",
+              "space": "lch",
+              "color": "{accent-surface.fg}"
+            }
+          }
+        }
+      }
     },
-    "type": "composition"
+    "disabled": {
+      "value": {
+        "fill": "{neutral-button.bg-default}",
+        "opacity": "{opacity-40}"
+      },
+      "type": "composition"
+    },
+    "focus": {
+      "value": {
+        "fill": "{neutral-button.bg-default}",
+        "borderColor": "{neutral-button.border-focus}"
+      },
+      "type": "composition"
+    },
+    "default": {
+      "value": {
+        "fill": "{neutral-button.bg-default}"
+      },
+      "type": "composition"
+    },
+    "hover": {
+      "value": {
+        "fill": "{neutral-button.bg-hover}"
+      },
+      "type": "composition"
+    },
+    "pressed": {
+      "value": {
+        "fill": "{neutral-button.bg-pressed}"
+      },
+      "type": "composition"
+    }
   }
 }
