@@ -297,15 +297,15 @@
     "value": "0",
     "type": "opacity"
   },
-  "opacity-20": {
+  "opacity-1": {
     "value": "0.2",
     "type": "opacity"
   },
-  "opacity-40": {
+  "opacity-2": {
     "value": "0.4",
     "type": "opacity"
   },
-  "opacity-60": {
+  "opacity-3": {
     "value": "0.6",
     "type": "opacity"
   }
