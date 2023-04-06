@@ -36,7 +36,7 @@
       "type": "color",
       "description": "Light"
     },
-    "bg-bold": {
+    "bg": {
       "value": "{sunflower.50}",
       "type": "color",
       "description": "Default"
@@ -68,7 +68,7 @@
       "type": "color",
       "description": "White"
     },
-    "fg-bold": {
+    "fg": {
       "value": "{hyacinthus.100}",
       "type": "color",
       "description": "Black"
@@ -96,7 +96,7 @@
       "type": "color",
       "description": "White"
     },
-    "fg-bold": {
+    "fg": {
       "value": "{hyacinthus.100}",
       "type": "color",
       "description": "Black"
@@ -124,7 +124,7 @@
       "type": "color",
       "description": "White"
     },
-    "fg-bold": {
+    "fg": {
       "value": "{hyacinthus.10}",
       "type": "color",
       "description": "Black"
