@@ -1,5 +1,5 @@
 {
-  "primary-surface": {
+  "secondary-surface": {
     "elevation-overlay": {
       "value": "{dahlia.10}",
       "type": "color",
@@ -25,7 +25,7 @@
       "type": "color"
     }
   },
-  "accent-surface": {
+  "primary-surface": {
     "elevation-overlay": {
       "value": "{sunflower.10}",
       "type": "color",
@@ -62,7 +62,7 @@
       "description": "Dark"
     }
   },
-  "bright-surface": {
+  "neutral-overlay-surface": {
     "bg": {
       "value": "{hyacinthus.10}",
       "type": "color",
@@ -90,7 +90,7 @@
       "type": "color"
     }
   },
-  "gray-surface": {
+  "neutral-sunken-surface": {
     "bg": {
       "value": "{hyacinthus.20}",
       "type": "color",
@@ -118,7 +118,7 @@
       "type": "color"
     }
   },
-  "dark-surface": {
+  "impact-surface": {
     "bg": {
       "value": "linear-gradient(180deg, {hyacinthus.80} 0%, {hyacinthus.90} 100%)",
       "type": "color",
@@ -137,11 +137,11 @@
       "value": "{hyacinthus.60}",
       "type": "color"
     },
-    "fg-primary": {
+    "fg-secondary": {
       "value": "{dahlia.50}",
       "type": "color"
     },
-    "fg-accent": {
+    "fg-primary": {
       "value": "{sunflower.50}",
       "type": "color"
     },
