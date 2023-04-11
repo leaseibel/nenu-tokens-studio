@@ -2,10 +2,13 @@
   "mode": "multi-file",
   "mapping": [
     {
-      "tokensTheme": "Desktop"
-      "supernovaBrand": null,
-      "supernovaTheme": null,
-      "tokenSets": ["colors"]
+      "tokenSets": [
+        "Core",
+        "MultiDevice",
+        "Button"
+      ],
+      "supernovaBrand": "Default",
+      "supernovaTheme": null
     }
   ],
   "settings": {
