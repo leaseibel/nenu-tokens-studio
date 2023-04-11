@@ -1,5 +1,10 @@
 {
-  "mode": "single-file",
+  "mode": "multi-file",
+  "mapping": [
+    {
+      "tokensTheme": "Desktop"
+    }
+  ],
   "settings": {
     "dryRun": false,
     "verbose": true,
