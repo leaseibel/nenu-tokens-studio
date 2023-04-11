@@ -1,14 +1,18 @@
 {
   "mode": "multi-file",
-  "mapping": [
-    {
-      "tokenSets": [
-        "Core"
-      ],
+  "mapping": [{
+      "tokensTheme": "Components",
       "supernovaBrand": "Default",
       "supernovaTheme": null
-    }
-  ],
+      }, {
+          "tokensTheme": "Semantic",
+          "supernovaBrand": "Default",
+          "supernovaTheme": null
+      }, {
+          "tokensSet": "Core",
+          "supernovaBrand": "Default",
+          "supernovaTheme": null
+      }]
   "settings": {
     "dryRun": false,
     "verbose": true,
