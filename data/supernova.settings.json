@@ -4,7 +4,8 @@
     {
       "tokensTheme": "Desktop"
       "supernovaBrand": "Default",
-      "supernovaTheme": "Dark theme"
+      "supernovaTheme": null,
+      "tokenSets": ["colors"]
     }
   ],
   "settings": {
