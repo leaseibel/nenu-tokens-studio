@@ -3,8 +3,7 @@
   "mapping": [
     {
       "tokenSets": [
-        "Components",
-        "Semantic"
+        "Core"
       ],
       "supernovaBrand": "Default",
       "supernovaTheme": null
