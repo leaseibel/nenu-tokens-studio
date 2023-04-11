@@ -3,7 +3,7 @@
   "mapping": [
     {
       "tokensTheme": "Desktop"
-      "supernovaBrand": "Default",
+      "supernovaBrand": null,
       "supernovaTheme": null,
       "tokenSets": ["colors"]
     }
