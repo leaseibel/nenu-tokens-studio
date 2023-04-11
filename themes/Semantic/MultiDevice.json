@@ -115,11 +115,6 @@
       "type": "color"
     }
   },
-  "impact-surface": {
-    "bg": {
-      "value": "linear-gradient(180deg, #37336c, #1b1942)",
-      "type": "color"
-    },
     "fg": {
       "value": "{hyacinthus.10}",
       "type": "color"
