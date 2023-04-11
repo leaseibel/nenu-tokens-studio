@@ -3,6 +3,8 @@
   "mapping": [
     {
       "tokensTheme": "Desktop"
+      "supernovaBrand": "Default",
+      "supernovaTheme": "Dark theme"
     }
   ],
   "settings": {
