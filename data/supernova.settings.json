@@ -2,14 +2,9 @@
   "mode": "multi-file",
   "mapping": [
     {
-      "tokensTheme": "Brand A - Light",
+      "tokensTheme": "Desktop",
       "supernovaBrand": "Default",
       "supernovaTheme": null
-    },
-    {
-      "tokensTheme": "Brand A - Dark",
-      "supernovaBrand": "Default",
-      "supernovaTheme": "Dark theme"
     }
   ],
   "settings": {
