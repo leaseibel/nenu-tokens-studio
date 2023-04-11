@@ -2,7 +2,7 @@
   "mode": "multi-file",
   "mapping": [{
       "tokensTheme": "Desktop",
-      "supernovaBrand": null,
+      "supernovaBrand": "Default",
       "supernovaTheme": null
       }],
   "settings": {
