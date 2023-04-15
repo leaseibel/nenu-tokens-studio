@@ -115,6 +115,7 @@
       "type": "color"
     }
   },
+  "impact-surface": {
     "fg": {
       "value": "{hyacinthus.10}",
       "type": "color"
