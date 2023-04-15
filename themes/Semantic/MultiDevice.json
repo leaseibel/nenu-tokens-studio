@@ -99,7 +99,7 @@
       "description": "Black"
     },
     "elevation-sunken": {
-      "value": "{hyacinthus.90}",
+      "value": "{hyacinthus.30}",
       "type": "color"
     },
     "fg-minimal": {
