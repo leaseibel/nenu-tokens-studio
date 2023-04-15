@@ -1,7 +1,5 @@
 {
   "tokenSetOrder": [
-    "Core",
-    "Semantic/MultiDevice",
-    "Components/Button"
+    "global"
   ]
 }
