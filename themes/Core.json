@@ -1,4 +1,16 @@
 {
+  "600": {
+    "value": "SemiBold",
+    "type": "fontWeights"
+  },
+  "700": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "800": {
+    "value": "ExtraBold",
+    "type": "fontWeights"
+  },
   "sunflower": {
     "10": {
       "value": "#FFFEFA",
@@ -308,5 +320,80 @@
   "opacity-3": {
     "value": "0.6",
     "type": "opacity"
+  },
+  "s": {
+    "value": "150%",
+    "type": "lineHeights"
+  },
+  "m": {
+    "value": "160%",
+    "type": "lineHeights"
+  },
+  "l": {
+    "value": "170%",
+    "type": "lineHeights"
+  },
+  "xl": {
+    "value": "180%",
+    "type": "lineHeights"
+  },
+  "xxl": {
+    "value": "200%",
+    "type": "lineHeights"
+  },
+  "REM": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "scaled": {
+    "87": {
+      "value": "{scaled.base}*87.5",
+      "type": "fontSizes"
+    },
+    "100": {
+      "value": "{scaled.base}*100",
+      "type": "fontSizes",
+      "description": "This is the default font-size, refered to the scaled.base"
+    },
+    "112": {
+      "value": "{scaled.base}*112.5",
+      "type": "fontSizes"
+    },
+    "125": {
+      "value": "{scaled.base}*125",
+      "type": "fontSizes"
+    },
+    "150": {
+      "value": "{scaled.base}*150",
+      "type": "fontSizes"
+    },
+    "175": {
+      "value": "{scaled.base}*175",
+      "type": "fontSizes"
+    },
+    "200": {
+      "value": "{scaled.base}*200",
+      "type": "fontSizes"
+    },
+    "250": {
+      "value": "{scaled.base}*250",
+      "type": "fontSizes"
+    },
+    "300": {
+      "value": "{scaled.base}*300",
+      "type": "fontSizes"
+    },
+    "base": {
+      "value": "{REM} / 100",
+      "type": "fontSizes"
+    }
+  },
+  "sans-serif": {
+    "value": "Area Normal",
+    "type": "fontFamilies"
+  },
+  "display": {
+    "value": "BD Supper",
+    "type": "fontFamilies"
   }
 }
