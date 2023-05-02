@@ -152,23 +152,33 @@
         "type": "color",
         "description": "Default"
       },
+      "fg": {
+        "value": "{color.lobelia.10}",
+        "type": "color",
+        "description": "Default"
+      },
       "bg": {
         "value": "{color.lobelia.70}",
         "type": "color",
         "description": "Default"
       },
-      "fg": {
+      "fg-on-minimal": {
         "value": "{color.lobelia.100}",
         "type": "color",
         "description": "X-Dark"
       },
-      "border-on-subbtle": {
+      "border-on-minimal": {
         "value": "{color.lobelia.40}",
         "type": "color",
         "description": "Light"
       }
     },
     "error-surface": {
+      "fg": {
+        "value": "{color.tulip.10}",
+        "type": "color",
+        "description": "X-Light"
+      },
       "bg-minimal": {
         "value": "{color.tulip.10}",
         "type": "color",
@@ -179,12 +189,12 @@
         "type": "color",
         "description": "Default"
       },
-      "fg": {
+      "fg-on-minimal": {
         "value": "{color.tulip.100}",
         "type": "color",
         "description": "X-Dark"
       },
-      "border-on-subbtle": {
+      "border-on-minimal": {
         "value": "{color.tulip.40}",
         "type": "color",
         "description": "Light"
@@ -196,17 +206,22 @@
         "type": "color",
         "description": "X-Light"
       },
+      "fg": {
+        "value": "{color.angelica.10}",
+        "type": "color",
+        "description": "X-Light"
+      },
       "bg": {
         "value": "{color.angelica.70}",
         "type": "color",
         "description": "Default"
       },
-      "fg": {
+      "fg-on-minimal": {
         "value": "{color.angelica.100}",
         "type": "color",
         "description": "X-Dark"
       },
-      "border-on-subbtle": {
+      "border-on-minimal": {
         "value": "{color.angelica.40}",
         "type": "color",
         "description": "Light"
@@ -218,17 +233,22 @@
         "type": "color",
         "description": "X-Light"
       },
+      "fg": {
+        "value": "{color.begonia.10}",
+        "type": "color",
+        "description": "X-Light"
+      },
       "bg": {
         "value": "{color.begonia.70}",
         "type": "color",
         "description": "Default"
       },
-      "fg": {
+      "fg-on-minimal": {
         "value": "{color.begonia.100}",
         "type": "color",
         "description": "X-Dark"
       },
-      "border-on-subbtle": {
+      "border-on-minimal": {
         "value": "{color.begonia.40}",
         "type": "color",
         "description": "Light"
