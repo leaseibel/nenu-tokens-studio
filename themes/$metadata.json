@@ -1,7 +1,8 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Semantic/MultiDevice",
-    "Components/Button"
+    "Semantic/Webapp",
+    "Components/Button",
+    "Semantic/LandingPage"
   ]
 }

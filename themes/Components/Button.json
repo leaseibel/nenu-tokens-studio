@@ -1,142 +1,524 @@
 {
-  "common": {
-    "primary": {
-      "bg": {
-        "hover": {
-          "value": "{primary-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.05",
-                "space": "lch",
-                "color": "{primary-surface.fg}"
+  "color": {
+    "button": {
+      "common": {
+        "primary": {
+          "bg": {
+            "hover": {
+              "value": "{color.primary-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.05",
+                    "space": "lch",
+                    "color": "{primary-surface.fg}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.primary-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.1",
+                    "space": "lch",
+                    "color": "{primary-surface.fg}"
+                  }
+                }
+              }
+            },
+            "default": {
+              "value": "{color.primary-surface.bg}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "focus": {
+              "value": "{color.primary-surface.fg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{primary-surface.bg}"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.primary-surface.fg}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
               }
             }
           }
         },
-        "pressed": {
-          "value": "{primary-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{primary-surface.fg}"
+        "neutral": {
+          "bg": {
+            "hover": {
+              "value": "{color.neutral-sunken-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.05",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.fg}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.neutral-sunken-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.1",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.fg}"
+                  }
+                }
+              }
+            },
+            "default": {
+              "value": "{color.neutral-sunken-surface.bg}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "focus": {
+              "value": "{color.neutral-sunken-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.fg-clickable}"
+                  }
+                }
               }
             }
-          }
-        },
-        "default": {
-          "value": "{primary-surface.bg}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "focus": {
-          "value": "{primary-surface.fg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{primary-surface.bg}"
-              }
-            }
-          }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{primary-surface.fg}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
+          },
+          "fg": {
+            "default": {
+              "value": "{color.neutral-sunken-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
                 }
               }
             }
           }
         }
-      }
-    },
-    "neutral": {
-      "bg": {
-        "hover": {
-          "value": "{neutral-sunken-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.05",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.fg}"
+      },
+      "text": {
+        "on-neutral": {
+          "border": {
+            "focus": {
+              "value": "{color.neutral-sunken-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.fg-clickable}"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.neutral-sunken-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              }
+            },
+            "hover": {
+              "value": "{color.neutral-sunken-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.bg}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.neutral-sunken-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.4",
+                    "space": "lch",
+                    "color": "{neutral-sunken-surface.bg}"
+                  }
+                }
               }
             }
           }
         },
-        "pressed": {
-          "value": "{neutral-sunken-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.fg}"
+        "on-primary": {
+          "border": {
+            "focus": {
+              "value": "{color.primary-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{primary-surface.fg-clickable}"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.primary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              }
+            },
+            "hover": {
+              "value": "{color.primary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "lch",
+                    "color": "{primary-surface.bg}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.primary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.4",
+                    "space": "lch",
+                    "color": "{primary-surface.bg}"
+                  }
+                }
               }
             }
           }
         },
-        "default": {
-          "value": "{neutral-sunken-surface.bg}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "focus": {
-          "value": "{neutral-sunken-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.fg-clickable}"
+        "on-secondary": {
+          "border": {
+            "focus": {
+              "value": "{color.secondary-surface.bg}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{secondary-surface.fg-clickable}"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.secondary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              }
+            },
+            "hover": {
+              "value": "{color.secondary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "lch",
+                    "color": "{secondary-surface.bg}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.secondary-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.4",
+                    "space": "lch",
+                    "color": "{secondary-surface.bg}"
+                  }
+                }
               }
             }
           }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{neutral-sunken-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
+        },
+        "on-impact": {
+          "border": {
+            "focus": {
+              "value": "{color.impact-surface.elevation-sunken}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.6",
+                    "space": "lch",
+                    "color": "{impact-surface.fg-clickable}"
+                  }
+                }
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{color.impact-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              }
+            },
+            "hover": {
+              "value": "{color.impact-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.2",
+                    "space": "lch",
+                    "color": "{impact-surface.elevation-sunken}"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{color.impact-surface.fg-clickable}",
+              "type": "color",
+              "hover": {
+                "value": "{accent-surface.bg-bold}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "mix",
+                      "value": "0.1",
+                      "space": "lch",
+                      "color": "{accent-surface.fg}"
+                    }
+                  }
+                }
+              },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.4",
+                    "space": "lch",
+                    "color": "{impact-surface.elevation-sunken}"
+                  }
                 }
               }
             }
@@ -145,388 +527,12 @@
       }
     }
   },
-  "text": {
-    "on-neutral": {
-      "border": {
-        "focus": {
-          "value": "{neutral-sunken-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.fg-clickable}"
-              }
-            }
-          }
-        }
+  "button": {
+    "disabled": {
+      "value": {
+        "opacity": "{opacity.40}"
       },
-      "fg": {
-        "default": {
-          "value": "{neutral-sunken-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          }
-        },
-        "hover": {
-          "value": "{neutral-sunken-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.bg}"
-              }
-            }
-          }
-        },
-        "pressed": {
-          "value": "{neutral-sunken-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.4",
-                "space": "lch",
-                "color": "{neutral-sunken-surface.bg}"
-              }
-            }
-          }
-        }
-      }
-    },
-    "on-primary": {
-      "border": {
-        "focus": {
-          "value": "{primary-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{primary-surface.fg-clickable}"
-              }
-            }
-          }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{primary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          }
-        },
-        "hover": {
-          "value": "{primary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{primary-surface.bg}"
-              }
-            }
-          }
-        },
-        "pressed": {
-          "value": "{primary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.4",
-                "space": "lch",
-                "color": "{primary-surface.bg}"
-              }
-            }
-          }
-        }
-      }
-    },
-    "on-secondary": {
-      "border": {
-        "focus": {
-          "value": "{secondary-surface.bg}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{secondary-surface.fg-clickable}"
-              }
-            }
-          }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{secondary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          }
-        },
-        "hover": {
-          "value": "{secondary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{secondary-surface.bg}"
-              }
-            }
-          }
-        },
-        "pressed": {
-          "value": "{secondary-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.4",
-                "space": "lch",
-                "color": "{secondary-surface.bg}"
-              }
-            }
-          }
-        }
-      }
-    },
-    "on-impact": {
-      "border": {
-        "focus": {
-          "value": "{impact-surface.elevation-sunken}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.6",
-                "space": "lch",
-                "color": "{impact-surface.fg-clickable}"
-              }
-            }
-          }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{impact-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          }
-        },
-        "hover": {
-          "value": "{impact-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{impact-surface.elevation-sunken}"
-              }
-            }
-          }
-        },
-        "pressed": {
-          "value": "{impact-surface.fg-clickable}",
-          "type": "color",
-          "hover": {
-            "value": "{accent-surface.bg-bold}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.1",
-                  "space": "lch",
-                  "color": "{accent-surface.fg}"
-                }
-              }
-            }
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.4",
-                "space": "lch",
-                "color": "{impact-surface.elevation-sunken}"
-              }
-            }
-          }
-        }
-      }
+      "type": "composition"
     }
-  },
-  "disabled": {
-    "value": {
-      "opacity": "{opacity-2}"
-    },
-    "type": "composition"
   }
 }
