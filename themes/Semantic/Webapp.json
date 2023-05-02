@@ -348,7 +348,7 @@
     "seeds": {
       "value": {
         "fontFamily": "{font-family.seeds}",
-        "fontWeight": "{font-weight.body.regular}",
+        "fontWeight": "{font-weight.title.regular}",
         "fontSize": "{font-size.seeds}",
         "lineHeight": "{line-height.s}"
       },
