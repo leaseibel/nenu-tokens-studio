@@ -7,7 +7,7 @@
         "description": "Light"
       },
       "bg": {
-        "value": "{color.dahlia.50}",
+        "value": "{color.dahlia.40}",
         "type": "color",
         "description": "Default"
       },
@@ -22,7 +22,7 @@
         "description": "Dark"
       },
       "elevation-sunken": {
-        "value": "{color.dahlia.60}",
+        "value": "{color.dahlia.50}",
         "type": "color"
       }
     },
@@ -138,6 +138,10 @@
       },
       "elevation-raised": {
         "value": "{color.hyacinthus.70}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "linear-gradient(0deg, {color.hyacinthus.90} 0%, {color.hyacinthus.80} 100%)",
         "type": "color"
       }
     },

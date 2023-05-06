@@ -540,7 +540,7 @@
         "type": "typography"
       }
     },
-    "default": {
+    "small": {
       "label": {
         "value": "{typography.body.s.bold}",
         "type": "typography"
