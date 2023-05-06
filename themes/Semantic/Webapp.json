@@ -42,11 +42,6 @@
         "type": "color",
         "description": "Default"
       },
-      "border": {
-        "value": "{color.sunflower.50}",
-        "type": "color",
-        "description": "Default"
-      },
       "bg-subtle": {
         "value": "{color.sunflower.30}",
         "type": "color",
@@ -63,7 +58,7 @@
         "description": "Dark"
       }
     },
-    "neutral-overlay-surface": {
+    "neutral-hard-surface": {
       "bg": {
         "value": "{color.hyacinthus.10}",
         "type": "color"
@@ -89,7 +84,7 @@
         "type": "color"
       }
     },
-    "neutral-sunken-surface": {
+    "neutral-soft-surface": {
       "bg": {
         "value": "{color.hyacinthus.20}",
         "type": "color"
