@@ -115,16 +115,6 @@
       }
     }
   },
-  "composition": {
-    "button": {
-      "disabled": {
-        "value": {
-          "opacity": "{opacity.40}"
-        },
-        "type": "composition"
-      }
-    }
-  },
   "typography": {
     "chip": {
       "label": {

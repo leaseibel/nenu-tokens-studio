@@ -1,0 +1,24 @@
+{
+  "typography": {
+    "tooltip": {
+      "label": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "tooltip": {
+      "impact": {
+        "fg": {
+          "value": "{color.impact-surface.fg}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.impact-surface.elevation-sunken}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

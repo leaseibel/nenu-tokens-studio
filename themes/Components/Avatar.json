@@ -1,0 +1,46 @@
+{
+  "typography": {
+    "avatar": {
+      "pseudo-bold": {
+        "value": "{typography.title.l}",
+        "type": "typography"
+      },
+      "pseudo-subbtle": {
+        "value": "{typography.body.l.bold}",
+        "type": "typography"
+      },
+      "pseudo-minimal": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "avatar": {
+      "on-neutral-soft": {
+        "fg": {
+          "default": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color"
+          },
+          "subbtle": {
+            "value": "{color.neutral-hard-surface.fg-minimal}",
+            "type": "color"
+          }
+        }
+      },
+      "on-impact": {
+        "fg": {
+          "default": {
+            "value": "{color.impact-surface.fg}",
+            "type": "color"
+          },
+          "subbtle": {
+            "value": "{color.impact-surface.fg-minimal}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

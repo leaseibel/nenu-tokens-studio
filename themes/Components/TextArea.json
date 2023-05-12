@@ -1,6 +1,6 @@
 {
   "typography": {
-    "text-input": {
+    "text-area": {
       "label": {
         "value": "{typography.body.s.bold}",
         "type": "typography"
@@ -16,7 +16,7 @@
     }
   },
   "color": {
-    "text-input": {
+    "text-area": {
       "bg": {
         "error": {
           "value": "{color.error-surface.bg-minimal}",
@@ -85,6 +85,10 @@
           "type": "color"
         },
         "placeholder": {
+          "value": "{color.neutral-hard-surface.fg-minimal}",
+          "type": "color"
+        },
+        "characters": {
           "value": "{color.neutral-hard-surface.fg-minimal}",
           "type": "color"
         },

@@ -11,6 +11,11 @@
         "type": "color",
         "description": "Default"
       },
+      "elevation-raised": {
+        "value": "{color.dahlia.30}",
+        "type": "color",
+        "description": "Default"
+      },
       "fg": {
         "value": "{color.dahlia.100}",
         "type": "color",

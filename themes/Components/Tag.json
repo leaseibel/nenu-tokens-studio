@@ -1,0 +1,104 @@
+{
+  "typography": {
+    "tag": {
+      "label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "tag": {
+      "on-neutral-hard": {
+        "fg-subbtle": {
+          "value": "{color.neutral-hard-surface.fg}",
+          "type": "color"
+        },
+        "fg-bold": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color"
+        },
+        "bg-subbtle": {
+          "value": "{color.neutral-hard-surface.elevation-sunken}",
+          "type": "color"
+        },
+        "bg-bold": {
+          "value": "{color.neutral-hard-surface.fg}",
+          "type": "color"
+        }
+      },
+      "on-neutral-soft": {
+        "fg-subbtle": {
+          "value": "{color.neutral-soft-surface.fg}",
+          "type": "color"
+        },
+        "fg-bold": {
+          "value": "{color.neutral-soft-surface.bg}",
+          "type": "color"
+        },
+        "bg-subbtle": {
+          "value": "{color.neutral-soft-surface.elevation-sunken}",
+          "type": "color"
+        },
+        "bg-bold": {
+          "value": "{color.neutral-soft-surface.fg}",
+          "type": "color"
+        }
+      },
+      "on-primary": {
+        "fg-subbtle": {
+          "value": "{color.primary-surface.fg}",
+          "type": "color"
+        },
+        "fg-bold": {
+          "value": "{color.primary-surface.elevation-overlay}",
+          "type": "color"
+        },
+        "bg-subbtle": {
+          "value": "{color.primary-surface.elevation-raised}",
+          "type": "color"
+        },
+        "bg-bold": {
+          "value": "{color.primary-surface.fg}",
+          "type": "color"
+        }
+      },
+      "on-secondary": {
+        "fg-subbtle": {
+          "value": "{color.secondary-surface.fg}",
+          "type": "color"
+        },
+        "fg-bold": {
+          "value": "{color.secondary-surface.elevation-overlay}",
+          "type": "color"
+        },
+        "bg-subbtle": {
+          "value": "{color.secondary-surface.elevation-raised}",
+          "type": "color"
+        },
+        "bg-bold": {
+          "value": "{color.secondary-surface.fg}",
+          "type": "color"
+        }
+      },
+      "on-impact": {
+        "fg-subbtle": {
+          "value": "{color.impact-surface.fg}",
+          "type": "color"
+        },
+        "fg-bold": {
+          "value": "{color.impact-surface.elevation-sunken}",
+          "type": "color"
+        },
+        "bg-subbtle": {
+          "value": "{color.impact-surface.elevation-raised}",
+          "type": "color"
+        },
+        "bg-bold": {
+          "value": "{color.secondary-surface.bg}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

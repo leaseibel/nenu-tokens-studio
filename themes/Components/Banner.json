@@ -1,0 +1,88 @@
+{
+  "typography": {
+    "banner": {
+      "description": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      },
+      "title": {
+        "value": "{typography.body.m.black}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "banner": {
+      "primary": {
+        "fg": {
+          "value": "{color.primary-surface.fg}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.primary-surface.bg-subtle}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.primary-surface.bg}",
+          "type": "color"
+        }
+      },
+      "informative": {
+        "fg": {
+          "value": "{color.informative-surface.fg-on-minimal}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.informative-surface.bg-minimal}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.informative-surface.bg}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "fg": {
+          "value": "{color.error-surface.fg-on-minimal}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.error-surface.bg-minimal}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.error-surface.bg}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "fg": {
+          "value": "{color.success-surface.fg-on-minimal}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.success-surface.bg-minimal}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.success-surface.bg}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "fg": {
+          "value": "{color.warning-surface.fg-on-minimal}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{color.warning-surface.bg-minimal}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{color.warning-surface.bg}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "typography": {
+    "progress": {
+      "label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      },
+      "percent": {
+        "value": "{typography.title.s}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "progress": {
+      "fg": {
+        "value": "{color.neutral-hard-surface.fg}",
+        "type": "color"
+      },
+      "bg": {
+        "value": "{color.neutral-hard-surface.fg-minimal}",
+        "type": "color"
+      }
+    }
+  }
+}

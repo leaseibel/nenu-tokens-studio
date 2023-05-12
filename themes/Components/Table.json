@@ -1,0 +1,36 @@
+{
+  "typography": {
+    "table": {
+      "cell-content": {
+        "value": "{typography.body.s.black}",
+        "type": "typography"
+      },
+      "cell-content-subbtle": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      },
+      "cell-title": {
+        "value": "{typography.title.s}",
+        "type": "typography"
+      }
+    }
+  },
+  "color": {
+    "table": {
+      "fg": {
+        "value": "{color.neutral-hard-surface.fg}",
+        "type": "color"
+      },
+      "bg": {
+        "row-hard": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color"
+        },
+        "row-soft": {
+          "value": "{color.neutral-soft-surface.bg}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -6,9 +6,14 @@
       "Core": "enabled",
       "Components/Button": "enabled",
       "Semantic/Webapp": "enabled",
-      "Components/Chip": "disabled",
-      "Components/SegmentedButton": "disabled",
-      "Components/TextInput": "disabled"
+      "Components/Avatar": "disabled",
+      "Components/Progress": "disabled",
+      "Components/Table": "disabled",
+      "Components/Tag": "disabled",
+      "Components/Tooltip": "disabled",
+      "Components/Banner": "disabled",
+      "Components/Inline": "disabled",
+      "Components/Toast": "disabled"
     },
     "$figmaStyleReferences": {
       "button.accent.background-color.default": "S:628c5bc45be55a3f503e8d22beecf5efca1943df,",
