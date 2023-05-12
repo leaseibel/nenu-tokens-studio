@@ -1,0 +1,292 @@
+{
+  "tabs-item": {
+    "label": {
+      "value": "{typography.body.s.regular}",
+      "type": "typography"
+    }
+  },
+  "color": {
+    "checkbox": {
+      "on-neutral-hard": {
+        "bg": {
+          "indeterminate-pressed": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-hover": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-default": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-default": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-hover": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-pressed": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-default": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          },
+          "unchecked-hover": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          },
+          "unchecked-pressed": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color"
+          },
+          "checkmark": {
+            "value": "{color.neutral-hard-surface.bg}",
+            "type": "color"
+          }
+        }
+      },
+      "on-neutral-soft": {
+        "bg": {
+          "indeterminate-pressed": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-hover": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-default": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-default": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-hover": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-pressed": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-default": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          },
+          "unchecked-hover": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          },
+          "unchecked-pressed": {
+            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.neutral-hard-surface.fg}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "value": "{color.neutral-hard-surface.fg}",
+            "type": "color"
+          },
+          "checkmark": {
+            "value": "{color.neutral-hard-surface.bg}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

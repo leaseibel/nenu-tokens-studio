@@ -1,0 +1,98 @@
+{
+  "color": {
+    "tabs-item": {
+      "fg": {
+        "default": {
+          "value": "{color.neutral-hard-surface.fg-minimal}",
+          "type": "color",
+          "hover": {
+            "value": "{accent-surface.bg-bold}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{accent-surface.fg}"
+                }
+              }
+            }
+          }
+        },
+        "selected": {
+          "value": "{color.neutral-hard-surface.fg}",
+          "type": "color",
+          "hover": {
+            "value": "{accent-surface.bg-bold}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{accent-surface.fg}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "bg": {
+        "default": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.05",
+                "space": "lch",
+                "color": "{color.neutral-hard-surface.fg}"
+              }
+            }
+          }
+        },
+        "pressed": {
+          "value": "{color.neutral-hard-surface.bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.1",
+                "space": "lch",
+                "color": "{color.neutral-hard-surface.fg}"
+              }
+            }
+          }
+        }
+      },
+      "bottom-border": {
+        "pressed": {
+          "value": "{color.neutral-hard-surface.fg-minimal}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.neutral-hard-surface.fg}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "tabs-item": {
+    "label": {
+      "value": "{typography.body.s.bold}",
+      "type": "typography"
+    }
+  }
+}

@@ -3,6 +3,10 @@
     "Core",
     "Semantic/Webapp",
     "Components/Button",
+    "Components/TextButton",
+    "Components/BottomNavigation",
+    "Components/Tabs",
+    "Components/Checkbox",
     "Semantic/LandingPage"
   ]
 }
