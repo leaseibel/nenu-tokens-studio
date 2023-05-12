@@ -379,16 +379,22 @@
       }
     }
   },
-  "text-button": {
-    "disabled": {
-      "value": {
-        "opacity": "{opacity.40}"
-      },
-      "type": "composition"
-    },
-    "label": {
-      "value": "{typography.body.s.bold}",
-      "type": "typography"
+  "composition": {
+    "text-button": {
+      "disabled": {
+        "value": {
+          "opacity": "{opacity.40}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "typography": {
+    "text-button": {
+      "label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      }
     }
   }
 }

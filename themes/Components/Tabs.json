@@ -89,10 +89,12 @@
       }
     }
   },
-  "tabs-item": {
-    "label": {
-      "value": "{typography.body.s.bold}",
-      "type": "typography"
+  "typography": {
+    "tabs-item": {
+      "label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      }
     }
   }
 }

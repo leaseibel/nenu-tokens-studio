@@ -113,10 +113,12 @@
       }
     }
   },
-  "bottom-navigation-item": {
-    "label": {
-      "value": "{typography.caption}",
-      "type": "typography"
+  "typography": {
+    "bottom-navigation-item": {
+      "label": {
+        "value": "{typography.caption}",
+        "type": "typography"
+      }
     }
   }
 }

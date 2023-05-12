@@ -6,10 +6,7 @@
       "Core": "enabled",
       "Components/Button": "enabled",
       "Semantic/Webapp": "enabled",
-      "Components/TextButton": "disabled",
-      "Components/BottomNavigation": "disabled",
-      "Components/Tabs": "disabled",
-      "Components/Checkbox": "disabled"
+      "Components/RadioButton": "disabled"
     },
     "$figmaStyleReferences": {
       "button.accent.background-color.default": "S:628c5bc45be55a3f503e8d22beecf5efca1943df,",

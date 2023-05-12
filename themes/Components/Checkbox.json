@@ -1,8 +1,10 @@
 {
-  "tabs-item": {
-    "label": {
-      "value": "{typography.body.s.regular}",
-      "type": "typography"
+  "typography": {
+    "checkbox": {
+      "label": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      }
     }
   },
   "color": {
@@ -142,7 +144,7 @@
             "type": "color"
           },
           "checkmark": {
-            "value": "{color.neutral-hard-surface.bg}",
+            "value": "{color.neutral-hard-surface.elevation-overlay}",
             "type": "color"
           }
         }
@@ -150,7 +152,7 @@
       "on-neutral-soft": {
         "bg": {
           "indeterminate-pressed": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -158,13 +160,13 @@
                   "type": "mix",
                   "value": "0.4",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "indeterminate-hover": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -172,13 +174,13 @@
                   "type": "mix",
                   "value": "0.2",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "indeterminate-default": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -186,13 +188,13 @@
                   "type": "mix",
                   "value": "0.03",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "checked-default": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -200,13 +202,13 @@
                   "type": "mix",
                   "value": "0.03",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "checked-hover": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -214,13 +216,13 @@
                   "type": "mix",
                   "value": "0.2",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "checked-pressed": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -228,13 +230,13 @@
                   "type": "mix",
                   "value": "0.4",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.bg}"
+                  "color": "{color.neutral-soft-surface.bg}"
                 }
               }
             }
           },
           "unchecked-default": {
-            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "value": "{color.neutral-soft-surface.elevation-sunken}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -242,13 +244,13 @@
                   "type": "mix",
                   "value": "0.03",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.fg}"
+                  "color": "{color.neutral-soft-surface.fg}"
                 }
               }
             }
           },
           "unchecked-hover": {
-            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "value": "{color.neutral-soft-surface.elevation-sunken}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -256,13 +258,13 @@
                   "type": "mix",
                   "value": "0.05",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.fg}"
+                  "color": "{color.neutral-soft-surface.fg}"
                 }
               }
             }
           },
           "unchecked-pressed": {
-            "value": "{color.neutral-hard-surface.elevation-sunken}",
+            "value": "{color.neutral-soft-surface.elevation-sunken}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -270,7 +272,7 @@
                   "type": "mix",
                   "value": "0.1",
                   "space": "lch",
-                  "color": "{color.neutral-hard-surface.fg}"
+                  "color": "{color.neutral-soft-surface.fg}"
                 }
               }
             }
@@ -278,11 +280,381 @@
         },
         "fg": {
           "label": {
-            "value": "{color.neutral-hard-surface.fg}",
+            "value": "{color.neutral-soft-surface.fg}",
             "type": "color"
           },
           "checkmark": {
-            "value": "{color.neutral-hard-surface.bg}",
+            "value": "{color.neutral-soft-surface.elevation-overlay}",
+            "type": "color"
+          }
+        }
+      },
+      "on-primary": {
+        "bg": {
+          "indeterminate-pressed": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-hover": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-default": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-default": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-hover": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-pressed": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-default": {
+            "value": "{color.primary-surface.elevation-overlay}",
+            "type": "color"
+          },
+          "unchecked-hover": {
+            "value": "{color.primary-surface.elevation-overlay}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-pressed": {
+            "value": "{color.primary-surface.elevation-overlay}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color"
+          },
+          "checkmark": {
+            "value": "{color.primary-surface.elevation-overlay}",
+            "type": "color"
+          }
+        }
+      },
+      "on-secondary": {
+        "bg": {
+          "indeterminate-pressed": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-hover": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "indeterminate-default": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-default": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.03",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-hover": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.2",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "checked-pressed": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.4",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-default": {
+            "value": "{color.secondary-surface.elevation-overlay}",
+            "type": "color"
+          },
+          "unchecked-hover": {
+            "value": "{color.secondary-surface.elevation-overlay}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          },
+          "unchecked-pressed": {
+            "value": "{color.secondary-surface.elevation-overlay}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.secondary-surface.bg}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "value": "{color.secondary-surface.fg}",
+            "type": "color"
+          },
+          "checkmark": {
+            "value": "{color.secondary-surface.elevation-overlay}",
+            "type": "color"
+          }
+        }
+      },
+      "on-impact": {
+        "bg": {
+          "indeterminate-pressed": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          },
+          "indeterminate-hover": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          },
+          "indeterminate-default": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color"
+          },
+          "checked-default": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color"
+          },
+          "checked-hover": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          },
+          "checked-pressed": {
+            "value": "{color.impact-surface.fg-secondary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          },
+          "unchecked-default": {
+            "value": "{color.impact-surface.fg}",
+            "type": "color"
+          },
+          "unchecked-hover": {
+            "value": "{color.impact-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          },
+          "unchecked-pressed": {
+            "value": "{color.impact-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.impact-surface.elevation-sunken}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "value": "{color.impact-surface.fg}",
+            "type": "color"
+          },
+          "checkmark": {
+            "value": "{color.secondary-surface.fg}",
             "type": "color"
           }
         }

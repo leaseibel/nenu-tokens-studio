@@ -147,20 +147,26 @@
       }
     }
   },
-  "button": {
-    "disabled": {
-      "value": {
-        "opacity": "{opacity.40}"
+  "composition": {
+    "button": {
+      "disabled": {
+        "value": {
+          "opacity": "{opacity.40}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "typography": {
+    "button": {
+      "large-label": {
+        "value": "{typography.body.m.bold}",
+        "type": "typography"
       },
-      "type": "composition"
-    },
-    "large-label": {
-      "value": "{typography.body.m.bold}",
-      "type": "typography"
-    },
-    "small-label": {
-      "value": "{typography.body.s.bold}",
-      "type": "typography"
+      "small-label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      }
     }
   }
 }
