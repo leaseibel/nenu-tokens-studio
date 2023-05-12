@@ -1,0 +1,166 @@
+{
+  "color": {
+    "button": {
+      "primary": {
+        "bg": {
+          "hover": {
+            "value": "{color.primary-surface.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.primary-surface.fg}"
+                }
+              }
+            }
+          },
+          "pressed": {
+            "value": "{color.primary-surface.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.primary-surface.fg}"
+                }
+              }
+            }
+          },
+          "default": {
+            "value": "{color.primary-surface.bg}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "focus": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.6",
+                  "space": "lch",
+                  "color": "{color.primary-surface.bg}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{color.primary-surface.fg}",
+            "type": "color",
+            "hover": {
+              "value": "{accent-surface.bg-bold}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.1",
+                    "space": "lch",
+                    "color": "{accent-surface.fg}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "neutral": {
+        "bg": {
+          "hover": {
+            "value": "{color.neutral-soft-surface.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.05",
+                  "space": "lch",
+                  "color": "{color.neutral-soft-surface.fg}"
+                }
+              }
+            }
+          },
+          "pressed": {
+            "value": "{color.neutral-soft-surface.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{color.neutral-soft-surface.fg}"
+                }
+              }
+            }
+          },
+          "default": {
+            "value": "{color.neutral-soft-surface.bg}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "focus": {
+            "value": "{color.neutral-soft-surface.bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.6",
+                  "space": "lch",
+                  "color": "{color.neutral-soft-surface.fg-clickable}"
+                }
+              }
+            }
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{color.neutral-soft-surface.fg-clickable}",
+            "type": "color",
+            "hover": {
+              "value": "{accent-surface.bg-bold}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.1",
+                    "space": "lch",
+                    "color": "{accent-surface.fg}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "text-input": {
+      "label": {
+        "value": "{typography.body.s.bold}",
+        "type": "typography"
+      },
+      "placeholder": {
+        "value": "{typography.body.s.regular}",
+        "type": "typography"
+      },
+      "caption": {
+        "value": "{typography.caption}",
+        "type": "typography"
+      }
+    }
+  }
+}

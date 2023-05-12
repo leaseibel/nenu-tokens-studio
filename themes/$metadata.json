@@ -3,9 +3,12 @@
     "Core",
     "Semantic/Webapp",
     "Components/Button",
+    "Components/TextInput",
+    "Components/Chip",
     "Components/TextButton",
     "Components/BottomNavigation",
     "Components/Tabs",
+    "Components/SegmentedButton",
     "Components/Checkbox",
     "Components/RadioButton",
     "Semantic/LandingPage"
