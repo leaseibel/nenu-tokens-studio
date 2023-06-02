@@ -2,11 +2,6 @@
   {
     "id": "caf5ff21f3fa7291917ecf0e28c97d4a41206dc2",
     "name": "Desktop",
-    "selectedTokenSets": {
-      "Core": "enabled",
-      "Components/Button": "enabled",
-      "Semantic/Webapp": "enabled"
-    },
     "$figmaStyleReferences": {
       "button.accent.background-color.default": "S:628c5bc45be55a3f503e8d22beecf5efca1943df,",
       "accent-button.default.border": "S:45f0b540fefd29c2ad2c92202f66c8002518b3b3,",
@@ -210,6 +205,28 @@
       "success-surface.bg-minimal": "S:5890583b2ecb19d1a14874c9b9181dabae2d07da,",
       "error-surface.bg-minimal": "S:a8916cc1b3b0e7c7ab16038534ff38960d197438,",
       "warning-surface.bg-minimal": "S:6b40414ff34e9cc3c56700e23ad76f6e5dcc98ba,"
+    },
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "Components/Button": "enabled",
+      "Semantic/Webapp": "enabled",
+      "Components/TextInput": "enabled",
+      "Components/TextArea": "enabled",
+      "Components/Chip": "enabled",
+      "Components/Avatar": "enabled",
+      "Components/Progress": "enabled",
+      "Components/Table": "enabled",
+      "Components/Tag": "enabled",
+      "Components/Tooltip": "enabled",
+      "Components/Banner": "enabled",
+      "Components/Inline": "enabled",
+      "Components/Toast": "enabled",
+      "Components/TextButton": "enabled",
+      "Components/BottomNavigation": "enabled",
+      "Components/Tabs": "enabled",
+      "Components/SegmentedButton": "enabled",
+      "Components/Checkbox": "enabled",
+      "Components/RadioButton": "enabled"
     }
   }
 ]

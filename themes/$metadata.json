@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Core",
     "Semantic/Webapp",
+    "Semantic/LandingPage",
     "Components/Button",
     "Components/TextInput",
     "Components/TextArea",
@@ -19,7 +20,6 @@
     "Components/Tabs",
     "Components/SegmentedButton",
     "Components/Checkbox",
-    "Components/RadioButton",
-    "Semantic/LandingPage"
+    "Components/RadioButton"
   ]
 }
